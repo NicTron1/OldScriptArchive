@@ -1,0 +1,11 @@
+import pandas as pd
+
+nas_list = pd.read_excel('./NL.xlsx')
+
+pos = 0
+
+while pos < 3645:
+	nas_list.at[pos, 'Mentions Yesterday'] = 0
+	pos += 1
+
+nas_list.to_excel('./NL.xlsx', index=False)
