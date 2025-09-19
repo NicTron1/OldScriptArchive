@@ -1,0 +1,14 @@
+
+# Custom PiHole Blocklist
+# Description: Personal blocklist for DNS sinkholing
+# Last Updated: September 18, 2025
+# 
+# Usage: Add this URL to your piHole blocklist sources
+# 
+# Format: One domain per line
+# Comments start with #
+#
+# Total blocked domains: 1
+
+# Clash Royale game server
+game.clashroyaleapp.com
