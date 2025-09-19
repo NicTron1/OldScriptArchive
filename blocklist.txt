@@ -11,4 +11,4 @@
 # Total blocked domains: 1
 
 # Clash Royale game server
-game.clashroyaleapp.com
+0.0.0.0 game.clashroyaleapp.com
