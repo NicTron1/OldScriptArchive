@@ -1,14 +1,26 @@
+# Custom PiHole Blocklist - Clash Royale
 
-# Custom PiHole Blocklist
-# Description: Personal blocklist for DNS sinkholing
+# Description: Comprehensive blocklist to block Clash Royale game traffic
+
 # Last Updated: September 18, 2025
-# 
-# Usage: Add this URL to your piHole blocklist sources
-# 
-# Format: One domain per line
-# Comments start with #
-#
-# Total blocked domains: 1
 
-# Clash Royale game server
+# Format: Hosts file format (0.0.0.0 domain.com)
+
+# 
+
+# Usage: Add this URL to your piHole “Adlists” in Group Management
+
+# 
+
+# Total blocked domains: 5
+
+# Primary Clash Royale domains
+
 0.0.0.0 game.clashroyaleapp.com
+0.0.0.0 clashroyaleapp.com
+0.0.0.0 clashroyale.com
+0.0.0.0 gamea.clashofclans.com
+
+# Supercell general domains (used by multiple games)
+
+0.0.0.0 supercell.com
